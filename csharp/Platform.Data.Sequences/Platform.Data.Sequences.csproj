@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <Description>LinksPlatform's Platform.Data.Sequences Class Library</Description>
-    <Copyright>Konstantin Diachenko</Copyright>
+    <Copyright>konard, FreePhoenix888</Copyright>
     <AssemblyTitle>Platform.Data.Sequences</AssemblyTitle>
     <VersionPrefix>0.0.1</VersionPrefix>
-    <Authors>Konstantin Diachenko</Authors>
+    <Authors>konard, FreePhoenix888</Authors>
     <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5</TargetFrameworks>
     <AssemblyName>Platform.Data.Sequences</AssemblyName>
     <PackageId>Platform.Data.Sequences</PackageId>
-    <PackageTags>LinksPlatform;Data;AddressToRawNumberConverter;RawNumberToAddressConverter;ISequenceAppender;ISequenceWalker;SequenceWalker;StopableSequenceWalker</PackageTags>
+    <PackageTags>LinksPlatform;Data;Sequences;ISequenceAppender;ISequenceWalker;SequenceWalker;StopableSequenceWalker</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://linksplatform.github.io/Data.Sequences</PackageProjectUrl>
     <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
