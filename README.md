@@ -7,7 +7,7 @@
 
 LinksPlatform's Platform.Data.Sequences Class Library.
 
-Contains common interfaces that did not fit in any major category.
+Contains abstractions for sequences represented as links.
 
 Namespace: [Platform.Data.Sequences](https://linksplatform.github.io/Data.Sequences/csharp/api/Platform.Data.Sequences.html)
 
