@@ -21,8 +21,4 @@
     <ProjectReference Include="..\Platform.Data.Sequences\Platform.Data.Sequences.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Remove="README.md" />
-  </ItemGroup>
-
 </Project>
