@@ -1,0 +1,146 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Platform.Data.Sequences
+  name: Platform.Data.Sequences
+  href: api/Platform.Data.Sequences.html
+  commentId: N:Platform.Data.Sequences
+  fullName: Platform.Data.Sequences
+  nameWithType: Platform.Data.Sequences
+- uid: Platform.Data.Sequences.ISequenceAppender`1
+  name: ISequenceAppender<TLinkAddress>
+  href: api/Platform.Data.Sequences.ISequenceAppender-1.html
+  commentId: T:Platform.Data.Sequences.ISequenceAppender`1
+  name.vb: ISequenceAppender(Of TLinkAddress)
+  fullName: Platform.Data.Sequences.ISequenceAppender<TLinkAddress>
+  fullName.vb: Platform.Data.Sequences.ISequenceAppender(Of TLinkAddress)
+  nameWithType: ISequenceAppender<TLinkAddress>
+  nameWithType.vb: ISequenceAppender(Of TLinkAddress)
+- uid: Platform.Data.Sequences.ISequenceAppender`1.Append(`0,`0)
+  name: Append(TLinkAddress, TLinkAddress)
+  href: api/Platform.Data.Sequences.ISequenceAppender-1.html#Platform_Data_Sequences_ISequenceAppender_1_Append__0__0_
+  commentId: M:Platform.Data.Sequences.ISequenceAppender`1.Append(`0,`0)
+  fullName: Platform.Data.Sequences.ISequenceAppender<TLinkAddress>.Append(TLinkAddress, TLinkAddress)
+  fullName.vb: Platform.Data.Sequences.ISequenceAppender(Of TLinkAddress).Append(TLinkAddress, TLinkAddress)
+  nameWithType: ISequenceAppender<TLinkAddress>.Append(TLinkAddress, TLinkAddress)
+  nameWithType.vb: ISequenceAppender(Of TLinkAddress).Append(TLinkAddress, TLinkAddress)
+- uid: Platform.Data.Sequences.ISequenceAppender`1.Append*
+  name: Append
+  href: api/Platform.Data.Sequences.ISequenceAppender-1.html#Platform_Data_Sequences_ISequenceAppender_1_Append_
+  commentId: Overload:Platform.Data.Sequences.ISequenceAppender`1.Append
+  isSpec: "True"
+  fullName: Platform.Data.Sequences.ISequenceAppender<TLinkAddress>.Append
+  fullName.vb: Platform.Data.Sequences.ISequenceAppender(Of TLinkAddress).Append
+  nameWithType: ISequenceAppender<TLinkAddress>.Append
+  nameWithType.vb: ISequenceAppender(Of TLinkAddress).Append
+- uid: Platform.Data.Sequences.ISequenceWalker`1
+  name: ISequenceWalker<TLinkAddress>
+  href: api/Platform.Data.Sequences.ISequenceWalker-1.html
+  commentId: T:Platform.Data.Sequences.ISequenceWalker`1
+  name.vb: ISequenceWalker(Of TLinkAddress)
+  fullName: Platform.Data.Sequences.ISequenceWalker<TLinkAddress>
+  fullName.vb: Platform.Data.Sequences.ISequenceWalker(Of TLinkAddress)
+  nameWithType: ISequenceWalker<TLinkAddress>
+  nameWithType.vb: ISequenceWalker(Of TLinkAddress)
+- uid: Platform.Data.Sequences.ISequenceWalker`1.Walk(`0)
+  name: Walk(TLinkAddress)
+  href: api/Platform.Data.Sequences.ISequenceWalker-1.html#Platform_Data_Sequences_ISequenceWalker_1_Walk__0_
+  commentId: M:Platform.Data.Sequences.ISequenceWalker`1.Walk(`0)
+  fullName: Platform.Data.Sequences.ISequenceWalker<TLinkAddress>.Walk(TLinkAddress)
+  fullName.vb: Platform.Data.Sequences.ISequenceWalker(Of TLinkAddress).Walk(TLinkAddress)
+  nameWithType: ISequenceWalker<TLinkAddress>.Walk(TLinkAddress)
+  nameWithType.vb: ISequenceWalker(Of TLinkAddress).Walk(TLinkAddress)
+- uid: Platform.Data.Sequences.ISequenceWalker`1.Walk*
+  name: Walk
+  href: api/Platform.Data.Sequences.ISequenceWalker-1.html#Platform_Data_Sequences_ISequenceWalker_1_Walk_
+  commentId: Overload:Platform.Data.Sequences.ISequenceWalker`1.Walk
+  isSpec: "True"
+  fullName: Platform.Data.Sequences.ISequenceWalker<TLinkAddress>.Walk
+  fullName.vb: Platform.Data.Sequences.ISequenceWalker(Of TLinkAddress).Walk
+  nameWithType: ISequenceWalker<TLinkAddress>.Walk
+  nameWithType.vb: ISequenceWalker(Of TLinkAddress).Walk
+- uid: Platform.Data.Sequences.SequenceWalker
+  name: SequenceWalker
+  href: api/Platform.Data.Sequences.SequenceWalker.html
+  commentId: T:Platform.Data.Sequences.SequenceWalker
+  fullName: Platform.Data.Sequences.SequenceWalker
+  nameWithType: SequenceWalker
+- uid: Platform.Data.Sequences.SequenceWalker.WalkLeft*
+  name: WalkLeft
+  href: api/Platform.Data.Sequences.SequenceWalker.html#Platform_Data_Sequences_SequenceWalker_WalkLeft_
+  commentId: Overload:Platform.Data.Sequences.SequenceWalker.WalkLeft
+  isSpec: "True"
+  fullName: Platform.Data.Sequences.SequenceWalker.WalkLeft
+  nameWithType: SequenceWalker.WalkLeft
+- uid: Platform.Data.Sequences.SequenceWalker.WalkLeft``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Action{``0})
+  name: WalkLeft<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Action<TLinkAddress>)
+  href: api/Platform.Data.Sequences.SequenceWalker.html#Platform_Data_Sequences_SequenceWalker_WalkLeft__1___0_System_Func___0___0__System_Func___0___0__System_Func___0_System_Boolean__System_Action___0__
+  commentId: M:Platform.Data.Sequences.SequenceWalker.WalkLeft``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Action{``0})
+  name.vb: WalkLeft(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Action(Of TLinkAddress))
+  fullName: Platform.Data.Sequences.SequenceWalker.WalkLeft<TLinkAddress>(TLinkAddress, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, System.Boolean>, System.Action<TLinkAddress>)
+  fullName.vb: Platform.Data.Sequences.SequenceWalker.WalkLeft(Of TLinkAddress)(TLinkAddress, System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, System.Boolean), System.Action(Of TLinkAddress))
+  nameWithType: SequenceWalker.WalkLeft<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Action<TLinkAddress>)
+  nameWithType.vb: SequenceWalker.WalkLeft(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Action(Of TLinkAddress))
+- uid: Platform.Data.Sequences.SequenceWalker.WalkRight*
+  name: WalkRight
+  href: api/Platform.Data.Sequences.SequenceWalker.html#Platform_Data_Sequences_SequenceWalker_WalkRight_
+  commentId: Overload:Platform.Data.Sequences.SequenceWalker.WalkRight
+  isSpec: "True"
+  fullName: Platform.Data.Sequences.SequenceWalker.WalkRight
+  nameWithType: SequenceWalker.WalkRight
+- uid: Platform.Data.Sequences.SequenceWalker.WalkRight``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Action{``0})
+  name: WalkRight<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Action<TLinkAddress>)
+  href: api/Platform.Data.Sequences.SequenceWalker.html#Platform_Data_Sequences_SequenceWalker_WalkRight__1___0_System_Func___0___0__System_Func___0___0__System_Func___0_System_Boolean__System_Action___0__
+  commentId: M:Platform.Data.Sequences.SequenceWalker.WalkRight``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Action{``0})
+  name.vb: WalkRight(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Action(Of TLinkAddress))
+  fullName: Platform.Data.Sequences.SequenceWalker.WalkRight<TLinkAddress>(TLinkAddress, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, System.Boolean>, System.Action<TLinkAddress>)
+  fullName.vb: Platform.Data.Sequences.SequenceWalker.WalkRight(Of TLinkAddress)(TLinkAddress, System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, System.Boolean), System.Action(Of TLinkAddress))
+  nameWithType: SequenceWalker.WalkRight<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Action<TLinkAddress>)
+  nameWithType.vb: SequenceWalker.WalkRight(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Action(Of TLinkAddress))
+- uid: Platform.Data.Sequences.StopableSequenceWalker
+  name: StopableSequenceWalker
+  href: api/Platform.Data.Sequences.StopableSequenceWalker.html
+  commentId: T:Platform.Data.Sequences.StopableSequenceWalker
+  fullName: Platform.Data.Sequences.StopableSequenceWalker
+  nameWithType: StopableSequenceWalker
+- uid: Platform.Data.Sequences.StopableSequenceWalker.WalkLeft*
+  name: WalkLeft
+  href: api/Platform.Data.Sequences.StopableSequenceWalker.html#Platform_Data_Sequences_StopableSequenceWalker_WalkLeft_
+  commentId: Overload:Platform.Data.Sequences.StopableSequenceWalker.WalkLeft
+  isSpec: "True"
+  fullName: Platform.Data.Sequences.StopableSequenceWalker.WalkLeft
+  nameWithType: StopableSequenceWalker.WalkLeft
+- uid: Platform.Data.Sequences.StopableSequenceWalker.WalkLeft``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
+  name: WalkLeft<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Func<TLinkAddress, Boolean>)
+  href: api/Platform.Data.Sequences.StopableSequenceWalker.html#Platform_Data_Sequences_StopableSequenceWalker_WalkLeft__1___0_System_Func___0___0__System_Func___0___0__System_Func___0_System_Boolean__System_Func___0_System_Boolean__
+  commentId: M:Platform.Data.Sequences.StopableSequenceWalker.WalkLeft``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
+  name.vb: WalkLeft(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Func(Of TLinkAddress, Boolean))
+  fullName: Platform.Data.Sequences.StopableSequenceWalker.WalkLeft<TLinkAddress>(TLinkAddress, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, System.Boolean>, System.Func<TLinkAddress, System.Boolean>)
+  fullName.vb: Platform.Data.Sequences.StopableSequenceWalker.WalkLeft(Of TLinkAddress)(TLinkAddress, System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, System.Boolean), System.Func(Of TLinkAddress, System.Boolean))
+  nameWithType: StopableSequenceWalker.WalkLeft<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Func<TLinkAddress, Boolean>)
+  nameWithType.vb: StopableSequenceWalker.WalkLeft(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Func(Of TLinkAddress, Boolean))
+- uid: Platform.Data.Sequences.StopableSequenceWalker.WalkRight*
+  name: WalkRight
+  href: api/Platform.Data.Sequences.StopableSequenceWalker.html#Platform_Data_Sequences_StopableSequenceWalker_WalkRight_
+  commentId: Overload:Platform.Data.Sequences.StopableSequenceWalker.WalkRight
+  isSpec: "True"
+  fullName: Platform.Data.Sequences.StopableSequenceWalker.WalkRight
+  nameWithType: StopableSequenceWalker.WalkRight
+- uid: Platform.Data.Sequences.StopableSequenceWalker.WalkRight``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Action{``0},System.Action{``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
+  name: WalkRight<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Action<TLinkAddress>, Action<TLinkAddress>, Func<TLinkAddress, Boolean>, Func<TLinkAddress, Boolean>)
+  href: api/Platform.Data.Sequences.StopableSequenceWalker.html#Platform_Data_Sequences_StopableSequenceWalker_WalkRight__1___0_System_Func___0___0__System_Func___0___0__System_Func___0_System_Boolean__System_Action___0__System_Action___0__System_Func___0_System_Boolean__System_Func___0_System_Boolean__
+  commentId: M:Platform.Data.Sequences.StopableSequenceWalker.WalkRight``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Action{``0},System.Action{``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
+  name.vb: WalkRight(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Action(Of TLinkAddress), Action(Of TLinkAddress), Func(Of TLinkAddress, Boolean), Func(Of TLinkAddress, Boolean))
+  fullName: Platform.Data.Sequences.StopableSequenceWalker.WalkRight<TLinkAddress>(TLinkAddress, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, System.Boolean>, System.Action<TLinkAddress>, System.Action<TLinkAddress>, System.Func<TLinkAddress, System.Boolean>, System.Func<TLinkAddress, System.Boolean>)
+  fullName.vb: Platform.Data.Sequences.StopableSequenceWalker.WalkRight(Of TLinkAddress)(TLinkAddress, System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, System.Boolean), System.Action(Of TLinkAddress), System.Action(Of TLinkAddress), System.Func(Of TLinkAddress, System.Boolean), System.Func(Of TLinkAddress, System.Boolean))
+  nameWithType: StopableSequenceWalker.WalkRight<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Action<TLinkAddress>, Action<TLinkAddress>, Func<TLinkAddress, Boolean>, Func<TLinkAddress, Boolean>)
+  nameWithType.vb: StopableSequenceWalker.WalkRight(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Action(Of TLinkAddress), Action(Of TLinkAddress), Func(Of TLinkAddress, Boolean), Func(Of TLinkAddress, Boolean))
+- uid: Platform.Data.Sequences.StopableSequenceWalker.WalkRight``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
+  name: WalkRight<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Func<TLinkAddress, Boolean>)
+  href: api/Platform.Data.Sequences.StopableSequenceWalker.html#Platform_Data_Sequences_StopableSequenceWalker_WalkRight__1___0_System_Func___0___0__System_Func___0___0__System_Func___0_System_Boolean__System_Func___0_System_Boolean__
+  commentId: M:Platform.Data.Sequences.StopableSequenceWalker.WalkRight``1(``0,System.Func{``0,``0},System.Func{``0,``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
+  name.vb: WalkRight(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Func(Of TLinkAddress, Boolean))
+  fullName: Platform.Data.Sequences.StopableSequenceWalker.WalkRight<TLinkAddress>(TLinkAddress, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, TLinkAddress>, System.Func<TLinkAddress, System.Boolean>, System.Func<TLinkAddress, System.Boolean>)
+  fullName.vb: Platform.Data.Sequences.StopableSequenceWalker.WalkRight(Of TLinkAddress)(TLinkAddress, System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, TLinkAddress), System.Func(Of TLinkAddress, System.Boolean), System.Func(Of TLinkAddress, System.Boolean))
+  nameWithType: StopableSequenceWalker.WalkRight<TLinkAddress>(TLinkAddress, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, TLinkAddress>, Func<TLinkAddress, Boolean>, Func<TLinkAddress, Boolean>)
+  nameWithType.vb: StopableSequenceWalker.WalkRight(Of TLinkAddress)(TLinkAddress, Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, TLinkAddress), Func(Of TLinkAddress, Boolean), Func(Of TLinkAddress, Boolean))
