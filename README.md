@@ -7,6 +7,8 @@
 
 LinksPlatform's Platform.Data.Sequences Class Library.
 
+Contains common interfaces that did not fit in any major category.
+
 Namespace: [Platform.Data.Sequences](https://linksplatform.github.io/Data.Sequences/csharp/api/Platform.Data.Sequences.html)
 
 Forked from: [Konard/LinksPlatform/Platform/Platform.Data](https://github.com/linksplatform/Data/tree/85e275e6be142824229b5339906e77dfeccd4ab3/csharp/Platform.Data/Sequences)
@@ -16,6 +18,3 @@ NuGet package: [Platform.Data.Sequences](https://www.nuget.org/packages/Platform
 ## [Documentation](https://linksplatform.github.io/Data.Sequences)
 
 [PDF file](https://linksplatform.github.io/Data.Sequences/csharp/Platform.Data.Sequences.pdf) with code for e-readers.
-
-## Depends on
-*   [Platform.Data](https://github.com/linksplatform/Data)
