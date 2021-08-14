@@ -11,7 +11,7 @@ Contains abstractions for sequences represented as links.
 
 Namespace: [Platform.Data.Sequences](https://linksplatform.github.io/Data.Sequences/csharp/api/Platform.Data.Sequences.html)
 
-Forked from: [Konard/LinksPlatform/Platform/Platform.Data](https://github.com/linksplatform/Data/tree/85e275e6be142824229b5339906e77dfeccd4ab3/csharp/Platform.Data/Sequences)
+Forked from: [LinksPlatform/Data/Sequences](https://github.com/linksplatform/Data/tree/85e275e6be142824229b5339906e77dfeccd4ab3/csharp/Platform.Data/Sequences)
 
 NuGet package: [Platform.Data.Sequences](https://www.nuget.org/packages/Platform.Data.Sequences)
 
