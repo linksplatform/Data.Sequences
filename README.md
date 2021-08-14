@@ -1,6 +1,6 @@
 [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Data.Sequences)](https://www.nuget.org/packages/Platform.Data.Sequences)
 [![Actions Status](https://github.com/linksplatform/Data.Sequences/workflows/CD/badge.svg)](https://github.com/linksplatform/Data.Sequences/actions?workflow=CD)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b38e839402d9451aa3e58fe05521325f)](https://app.codacy.com/gh/linksplatform/Data.Sequences?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Data.Sequences&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/20f94d1af10947d3bc5ee80d1bf08a0b)](https://www.codacy.com/gh/linksplatform/Data.Sequences/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linksplatform/Data.Sequences&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/Data.Sequences/badge)](https://www.codefactor.io/repository/github/linksplatform/Data.Sequences)
 
 # [Data.Sequences](https://github.com/linksplatform/Data.Sequences)
