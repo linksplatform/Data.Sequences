@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
@@ -20,6 +20,36 @@ namespace Platform.Data.Sequences
     /// </remarks>
     public static class SequenceWalker
     {
+        /// <summary>
+        /// <para>
+        /// Walks the right using the specified sequence.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="TLinkAddress">
+        /// <para>The link address.</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="sequence">
+        /// <para>The sequence.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getSource">
+        /// <para>The get source.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getTarget">
+        /// <para>The get target.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="isElement">
+        /// <para>The is element.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="visit">
+        /// <para>The visit.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WalkRight<TLinkAddress>(TLinkAddress sequence, Func<TLinkAddress, TLinkAddress> getSource, Func<TLinkAddress, TLinkAddress> getTarget, Func<TLinkAddress, bool> isElement, Action<TLinkAddress> visit)
         {
@@ -61,6 +91,36 @@ namespace Platform.Data.Sequences
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Walks the left using the specified sequence.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="TLinkAddress">
+        /// <para>The link address.</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="sequence">
+        /// <para>The sequence.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getSource">
+        /// <para>The get source.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getTarget">
+        /// <para>The get target.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="isElement">
+        /// <para>The is element.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="visit">
+        /// <para>The visit.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WalkLeft<TLinkAddress>(TLinkAddress sequence, Func<TLinkAddress, TLinkAddress> getSource, Func<TLinkAddress, TLinkAddress> getTarget, Func<TLinkAddress, bool> isElement, Action<TLinkAddress> visit)
         {

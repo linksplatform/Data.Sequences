@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
@@ -20,6 +20,52 @@ namespace Platform.Data.Sequences
     /// </remarks>
     public static class StopableSequenceWalker
     {
+        /// <summary>
+        /// <para>
+        /// Determines whether walk right.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="TLinkAddress">
+        /// <para>The link address.</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="sequence">
+        /// <para>The sequence.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getSource">
+        /// <para>The get source.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getTarget">
+        /// <para>The get target.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="isElement">
+        /// <para>The is element.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="enter">
+        /// <para>The enter.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="exit">
+        /// <para>The exit.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="canEnter">
+        /// <para>The can enter.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="visit">
+        /// <para>The visit.</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The bool</para>
+        /// <para></para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool WalkRight<TLinkAddress>(TLinkAddress sequence, Func<TLinkAddress, TLinkAddress> getSource, Func<TLinkAddress, TLinkAddress> getTarget, Func<TLinkAddress, bool> isElement, Action<TLinkAddress> enter, Action<TLinkAddress> exit, Func<TLinkAddress, bool> canEnter, Func<TLinkAddress, bool> visit)
         {
@@ -87,6 +133,40 @@ namespace Platform.Data.Sequences
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether walk right.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="TLinkAddress">
+        /// <para>The link address.</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="sequence">
+        /// <para>The sequence.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getSource">
+        /// <para>The get source.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getTarget">
+        /// <para>The get target.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="isElement">
+        /// <para>The is element.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="visit">
+        /// <para>The visit.</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The bool</para>
+        /// <para></para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool WalkRight<TLinkAddress>(TLinkAddress sequence, Func<TLinkAddress, TLinkAddress> getSource, Func<TLinkAddress, TLinkAddress> getTarget, Func<TLinkAddress, bool> isElement, Func<TLinkAddress, bool> visit)
         {
@@ -125,6 +205,40 @@ namespace Platform.Data.Sequences
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether walk left.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="TLinkAddress">
+        /// <para>The link address.</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="sequence">
+        /// <para>The sequence.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getSource">
+        /// <para>The get source.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="getTarget">
+        /// <para>The get target.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="isElement">
+        /// <para>The is element.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="visit">
+        /// <para>The visit.</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The bool</para>
+        /// <para></para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool WalkLeft<TLinkAddress>(TLinkAddress sequence, Func<TLinkAddress, TLinkAddress> getSource, Func<TLinkAddress, TLinkAddress> getTarget, Func<TLinkAddress, bool> isElement, Func<TLinkAddress, bool> visit)
         {
