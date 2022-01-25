@@ -8,6 +8,6 @@ namespace Platform.Data.Sequences
     public interface ISequenceWalker<TLinkAddress>
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        IEnumerable<IList<TLinkAddress>> Walk(TLinkAddress sequence);
+        IEnumerable<IList<TLinkAddress>?> Walk(TLinkAddress sequence);
     }
 }
