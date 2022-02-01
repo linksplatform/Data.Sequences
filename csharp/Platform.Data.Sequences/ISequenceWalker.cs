@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 namespace Platform.Data.Sequences
 {
-    public interface ISequenceWalker<TLinkAddress>
+    public interface ISequenceWalker<TLinkAddress> where TLinkAddress : struct
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         IEnumerable<IList<TLinkAddress>?> Walk(TLinkAddress sequence);
