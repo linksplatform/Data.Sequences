@@ -7,12 +7,12 @@
   "api/Platform.Data.Sequences.ISequenceAppender-1.html": {
     "href": "api/Platform.Data.Sequences.ISequenceAppender-1.html",
     "title": "Interface ISequenceAppender<TLinkAddress> | LinksPlatform's Platform.Data.Sequences Library",
-    "keywords": "Interface ISequenceAppender<TLinkAddress> Namespace : Platform.Data.Sequences Assembly : Platform.Data.Sequences.dll Syntax public interface ISequenceAppender<TLinkAddress> where TLinkAddress : struct Type Parameters Name Description TLinkAddress Methods | Improve this Doc View Source Append(TLinkAddress, TLinkAddress) Declaration TLinkAddress Append(TLinkAddress sequence, TLinkAddress appendant) Parameters Type Name Description TLinkAddress sequence TLinkAddress appendant Returns Type Description TLinkAddress"
+    "keywords": "Interface ISequenceAppender<TLinkAddress> Namespace : Platform.Data.Sequences Assembly : Platform.Data.Sequences.dll Syntax public interface ISequenceAppender<TLinkAddress> Type Parameters Name Description TLinkAddress Methods | Improve this Doc View Source Append(TLinkAddress, TLinkAddress) Declaration TLinkAddress Append(TLinkAddress sequence, TLinkAddress appendant) Parameters Type Name Description TLinkAddress sequence TLinkAddress appendant Returns Type Description TLinkAddress"
   },
   "api/Platform.Data.Sequences.ISequenceWalker-1.html": {
     "href": "api/Platform.Data.Sequences.ISequenceWalker-1.html",
     "title": "Interface ISequenceWalker<TLinkAddress> | LinksPlatform's Platform.Data.Sequences Library",
-    "keywords": "Interface ISequenceWalker<TLinkAddress> Namespace : Platform.Data.Sequences Assembly : Platform.Data.Sequences.dll Syntax public interface ISequenceWalker<TLinkAddress> where TLinkAddress : struct Type Parameters Name Description TLinkAddress Methods | Improve this Doc View Source Walk(TLinkAddress) Declaration IEnumerable<IList<TLinkAddress>> Walk(TLinkAddress sequence) Parameters Type Name Description TLinkAddress sequence Returns Type Description IEnumerable < IList <TLinkAddress>>"
+    "keywords": "Interface ISequenceWalker<TLinkAddress> Namespace : Platform.Data.Sequences Assembly : Platform.Data.Sequences.dll Syntax public interface ISequenceWalker<TLinkAddress> Type Parameters Name Description TLinkAddress Methods | Improve this Doc View Source Walk(TLinkAddress) Declaration IEnumerable<IList<TLinkAddress>> Walk(TLinkAddress sequence) Parameters Type Name Description TLinkAddress sequence Returns Type Description IEnumerable < IList <TLinkAddress>>"
   },
   "api/Platform.Data.Sequences.SequenceWalker.html": {
     "href": "api/Platform.Data.Sequences.SequenceWalker.html",
