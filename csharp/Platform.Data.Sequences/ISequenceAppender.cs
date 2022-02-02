@@ -4,7 +4,7 @@
 
 namespace Platform.Data.Sequences
 {
-    public interface ISequenceAppender<TLinkAddress> where TLinkAddress : struct
+    public interface ISequenceAppender<TLinkAddress>
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         TLinkAddress Append(TLinkAddress sequence, TLinkAddress appendant);
