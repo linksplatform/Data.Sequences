@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Data.Sequences</AssemblyTitle>
     <VersionPrefix>0.2.0</VersionPrefix>
     <Authors>konard, FreePhoenix888</Authors>
-    <TargetFrameworks>net472;netstandard2.0;netstandard3.1;net5;net6</TargetFrameworks>
+    <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5;net6</TargetFrameworks>
     <AssemblyName>Platform.Data.Sequences</AssemblyName>
     <PackageId>Platform.Data.Sequences</PackageId>
     <PackageTags>LinksPlatform;Data;Sequences;ISequenceAppender;ISequenceWalker;SequenceWalker;StopableSequenceWalker</PackageTags>
