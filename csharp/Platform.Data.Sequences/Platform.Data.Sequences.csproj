@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Data.Sequences Class Library</Description>
     <Copyright>konard, FreePhoenix888</Copyright>
     <AssemblyTitle>Platform.Data.Sequences</AssemblyTitle>
-    <VersionPrefix>0.2.1</VersionPrefix>
+    <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>konard, FreePhoenix888</Authors>
     <TargetFramework>net8</TargetFramework>
     <AssemblyName>Platform.Data.Sequences</AssemblyName>
@@ -23,7 +23,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>.NET 6 support is added.</PackageReleaseNotes>
+    <PackageReleaseNotes>.NET 8 support is added.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
