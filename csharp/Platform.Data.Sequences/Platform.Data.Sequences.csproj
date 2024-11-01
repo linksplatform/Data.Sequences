@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Data.Sequences</AssemblyTitle>
     <VersionPrefix>0.2.1</VersionPrefix>
     <Authors>konard, FreePhoenix888</Authors>
-    <TargetFramework>net7</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
     <AssemblyName>Platform.Data.Sequences</AssemblyName>
     <PackageId>Platform.Data.Sequences</PackageId>
     <PackageTags>LinksPlatform;Data;Sequences;ISequenceAppender;ISequenceWalker;SequenceWalker;StopableSequenceWalker</PackageTags>
