@@ -4,12 +4,13 @@
     <Description>LinksPlatform's Platform.Data.Sequences Class Library</Description>
     <Copyright>konard, FreePhoenix888</Copyright>
     <AssemblyTitle>Platform.Data.Sequences</AssemblyTitle>
-    <VersionPrefix>0.3.1</VersionPrefix>
+    <VersionPrefix>0.3.2</VersionPrefix>
     <Authors>konard, FreePhoenix888</Authors>
     <TargetFramework>net8</TargetFramework>
     <AssemblyName>Platform.Data.Sequences</AssemblyName>
     <PackageId>Platform.Data.Sequences</PackageId>
     <PackageTags>LinksPlatform;Data;Sequences;ISequenceAppender;ISequenceWalker;SequenceWalker;StopableSequenceWalker</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://linksplatform.github.io/Data.Sequences</PackageProjectUrl>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
@@ -23,8 +24,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>.NET 8 support is added.
-Licence fix.</PackageReleaseNotes>
+    <PackageReleaseNotes>Add README file to NuGet.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -34,6 +34,10 @@ Licence fix.</PackageReleaseNotes>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
