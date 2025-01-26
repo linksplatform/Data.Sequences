@@ -25,7 +25,6 @@ jobs:
           submodules: true
       - name: Test
         run: |
-          cd csharp
           dotnet test -c Release -f net8
 
   pushNuGetPackageToGitHubPackageRegistry:
