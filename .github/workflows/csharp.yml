@@ -61,7 +61,8 @@ jobs:
             --name "GitHub" \
             --username "linksplatform" \
             --password "${{ secrets.GITHUB_TOKEN }}" \
-            --store-password-in-clear-text
+            --store-password-in-clear-text \
+            --skip-duplicate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
