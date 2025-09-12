@@ -34,6 +34,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Platform.Data" Version="*" />
+    <PackageReference Include="Platform.Delegates" Version="*" />
   </ItemGroup>
 
   <ItemGroup>
